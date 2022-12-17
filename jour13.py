@@ -31,7 +31,6 @@ def compare(first, second):
         return compare([first], second)
     return compare(first, [second])
 
-
 with open("jour13Input.txt") as lines:
     for line in lines:
         line = line.strip()
